@@ -27,7 +27,3 @@ shinyServer(
         })
     }
 )
-
-#HP only works up to 440 (model goes negative after that and falls apart)
-#Weight is in pounds (app divides by 1k like data set did) but maxes at 7000
-

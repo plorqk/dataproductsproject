@@ -24,8 +24,3 @@ shinyUI(pageWithSidebar(
         h5(textOutput("prediction"))
     )
 ))
-
-#predict MPG based on hp, weight or both
-
-#tutorial
-#http://shiny.rstudio.com/

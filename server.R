@@ -5,8 +5,6 @@ data(mtcars)
 hpfit <- lm(mpg ~ hp,data=mtcars)
 wtfit <- lm(mpg ~ wt,data=mtcars)
 
-#can't get it to output !?! - problem with work machine - 
-
 shinyServer(
     function(input, output) {
         output$prediction <- renderText({ 
